@@ -5,15 +5,416 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> ascendpharma.com.bd </title>
+    <!-- Bootstrap css Link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@500;700&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap icon link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Bxslider css and js links  -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
+    <!-------------- Header Section Start - ------->
+    <!-- navbar start  -->
+    <nav class="navbar navbar-expand-lg bg-color shadow-lg pt-md-4">
+        <div class="container">
+            <a class="navbar-brand text-white fw-bold" href="#">AscendPharma</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu hover-for-dropdown rounded-0 py-0 bg-dropdown border-0 shadow">
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Vision &
+                                    Mission</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">History &
+                                    Growth</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Quality,
+                                    Teamwork</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Marketing,
+                                    Sales & Distribution</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Divisions
+                        </a>
+                        <ul class="dropdown-menu hover-for-dropdown rounded-0 py-0 bg-dropdown border-0 shadow">
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Vaccine
+                                    Division</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Chemical
+                                    Division</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Herbal &
+                                    Nutricare Division</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Animal
+                                    Health Division</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu hover-for-dropdown rounded-0 py-0 bg-dropdown border-0 shadow">
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">By Trade
+                                    Name</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">By Geberic
+                                    Name</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">By
+                                    Vaccine</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">By Animal
+                                    Health Products</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Facilities
+                        </a>
+                        <ul class="dropdown-menu hover-for-dropdown rounded-0 py-0 bg-dropdown border-0 shadow">
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Production
+                                    Facilities</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">R&D
+                                    Facilities</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white"
+                                    href="#">Warehouse</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Virtual
+                                    Tours</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Photo
+                                    Gallery</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">GMP Compliance</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Global Operations
+                        </a>
+                        <ul class="dropdown-menu hover-for-dropdown rounded-0 py-0 bg-dropdown border-0 shadow">
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Our Global
+                                    Reach & Recognitions</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white"
+                                    href="#">International Business</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Distribution Network</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Career
+                        </a>
+                        <ul class="dropdown-menu hover-for-dropdown rounded-0 py-0 bg-dropdown border-0 shadow">
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Join With
+                                    Us</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Who Works
+                                    Here</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Our Culture
+                                    & Values</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Working
+                                    Environment</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Career
+                                    Growth</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contact & Enquiry
+                        </a>
+                        <ul class="dropdown-menu hover-for-dropdown rounded-0 py-0 bg-dropdown border-0 shadow">
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">General
+                                    Enquiry</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Product
+                                    Complain</a></li>
+                            <li><a class="dropdown-item py-2 border-bottom border-white text-white" href="#">Adverse
+                                    Event Reporting</a></li>
+                        </ul>
+
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-------- Header Section End -------------- -->
+
+    <!---------- Section-1 == Slider == Start  ---------->
+    <section class="position-relative mb-md-5 mb-3">
+
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/1.jpg" class="d-block w-100" alt="Slider-photo">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/2.jpg" class="d-block w-100" alt="Slider-photo">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/5.jpg" class="d-block w-100" alt="Slider-photo">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <!-- ticker-slider-for-heading-scrolling  start -->
+        <div class="container-fluid bg-ticker position-absolute bottom-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center py-3">
+                        <ul class="bxslider list-unstyled d-flex gap-3 align-items-center">
+                            <li class="text-white">Ascend Pharma Ltd. |</li>
+                            <li class="text-white">Our vision is to become a trusted healthcare company to ensure better
+                                health for everyone, everywhere</li>
+                            <li class="text-white">Our vision is to become a trusted healthcare company to ensure better
+                                health for everyone, everywhere</li>
+                            <li class="text-white">Our vision is to become a trusted healthcare company to ensure better
+                                health for everyone, everywhere</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ticker-slider-for-heading-scrolling  end -->
+
+    </section>
+    <!---------- Section-1 == Slider == End --- ------->
+
+    <!------- Section-2 == about Company== Start ---- -->
+    <section class="mb-md-5 mb-3">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <!-- item start  -->
+                <div class="col-md-7 mb-md-0 mb-4">
+                    <h1 class="mb-3 fw-normal">Welcome to <span class="fw-bold">Ascend Pharma Limited</span></h1>
+                    <p class="mb-md-5 mb-3">Ascend Pharma Limited, sit amet consectetur adipisicing elit. Repudiandae,
+                        aspernatur et. Rem quod rerum dolore nihil adipisci illum, odit aut! Voluptates ipsam molestiae
+                        temporibus praesentium. Incidunt sit similique, optio officia sunt molestiae necessitatibus
+                        porro aliquam ea maxime tempore asperiores ducimus! Earum, iure illum. Repellendus tempore
+                        cupiditate expedita animi alias numquam...</p>
+                    <button class="btn btn-secondary rounded-0">Read More</button>
+                </div>
+                <!-- item end -->
+                <!-- item start  -->
+                <div class="col-md-4 d-flex align-items-center">
+                    <div class="ratio ratio-16x9 shadow-lg">
+                        <iframe src="https://www.youtube.com/embed/x9UXjTBLe8A?si=pYjv7nO-jPqxcGdi"
+                            title="YouTube video" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- item end -->
+            </div>
+        </div>
+    </section>
+    <!------- Section-2 == about Company== End ---- -->
+
+    <!------- Section-3 == about Company== Start ---- -->
+
+    <section class="bg-color py-md-5 py-3 mb-md-5 mb-3">
+        <div class="container">
+            
+            <h2 class="text-white">Specialized Products</h2>
+            
+            <div class="row g-3 my-md-5 mb-3">
+                <div class="col-md-3">
+                    <a href="#"><img src="images/product-1.jpg" class="img-fluid" alt="product"></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#"><img src="images/product-2.jpg" class="img-fluid" alt="product"></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#"><img src="images/product-3.jpg" class="img-fluid" alt="product"></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#"><img src="images/product-4.jpg" class="img-fluid" alt="product"></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#"><img src="images/product-1.jpg" class="img-fluid" alt="product"></a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#"><img src="images/product-2.jpg" class="img-fluid" alt="product"></a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#"><img src="images/product-3.jpg" class="img-fluid" alt="product"></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#"><img src="images/product-4.jpg" class="img-fluid" alt="product"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------- Section-3 == about Company== End ---- -->
+
+<!------------- Footer Section Start --------- -->
+    <section class="bg-color">
+        <div class="container pt-md-5 pb-md-3 py-3">
+            <div class="row">
+                <!-- item start  -->
+                <div class="col-md-3">
+                    <h5 class="fw-bold text-white mb-3">About Us</h5>
+                    <ul class="footer-item-hover list-unstyled d-flex flex-column gap-1">
+                        <li><a href="#" class="text-decoration-none text-white"> <i class="bi bi-caret-right"></i>
+                                Company profile</a></li>
+                        <li><a href="#" class="text-decoration-none text-white"> <i class="bi bi-caret-right"></i>
+                                Mission, vision, and values</a></li>
+                        <li><a href="#" class="text-decoration-none text-white"> <i class="bi bi-caret-right"></i> Board
+                                of directors</a></li>
+                        <li><a href="#" class="text-decoration-none text-white"> <i class="bi bi-caret-right"></i>
+                                Message from Chairperson</a></li>
+                        <li><a href="#" class="text-decoration-none text-white"> <i class="bi bi-caret-right"></i>
+                                Message from Managing Director</a></li>
+                        <li><a href="#" class="text-decoration-none text-white"> <i class="bi bi-caret-right"></i>
+                                Quality policy</a></li>
+                    </ul>
+                </div>
+                <!-- item end  -->
+
+                <!-- item start  -->
+                <div class="col-md-3">
+                    <h5 class="fw-bold text-white mb-3">Products</h5>
+                    <ul class="footer-item-hover list-unstyled d-flex flex-column gap-1">
+                        <li><a href="#" class="text-decoration-none text-white"> <i class="bi bi-caret-right"></i>
+                                Products by trade name</a></li>
+                        <li><a href="#" class="text-decoration-none text-white"> <i class="bi bi-caret-right"></i>
+                                Products by generic name</a></li>
+                        <li><a href="#" class="text-decoration-none text-white"> <i class="bi bi-caret-right"></i>
+                                Products by thereapeutic class</a></li>
+                        <li><a href="#" class="text-decoration-none text-white"> <i class="bi bi-caret-right"></i>
+                                Download all product list</a></li>
+                    </ul>
+                </div>
+                <!-- item end  -->
+
+                <!-- item start  -->
+                <div class="col-md-3">
+                    <h5 class="fw-bold text-white mb-3">Facility</h5>
+                    <ul class="footer-item-hover list-unstyled d-flex flex-column gap-1">
+                        <li><a href="#" class="text-decoration-none text-white"> <i class="bi bi-caret-right"></i> Solid
+                                unit</a></li>
+                        <li><a href="#" class="text-decoration-none text-white"> <i class="bi bi-caret-right"></i>
+                                Sterile unit</a></li>
+                        <li><a href="#" class="text-decoration-none text-white"> <i class="bi bi-caret-right"></i>
+                                Oncology unit</a></li>
+                        <li><a href="#" class="text-decoration-none text-white"> <i class="bi bi-caret-right"></i>
+                                Hormone unit</a></li>
+                        <li><a href="#" class="text-decoration-none text-white"> <i class="bi bi-caret-right"></i>
+                                Virtual tours</a></li>
+                        <li><a href="#" class="text-decoration-none text-white"> <i class="bi bi-caret-right"></i> Photo
+                                gallery</a></li>
+                    </ul>
+                </div>
+                <!-- item end  -->
+
+                <!-- item start  -->
+                <div class="col-md-3">
+                    <h5 class="fw-bold text-white mb-3">Contact Us</h5>
+                    <div class="d-flex gap-2 mb-2">
+                            <div><i class="bi bi-geo-alt-fill text-white"></i></div>
+                            <div class="text-white">House# 00, Block# 0, Road# 0 Banasree,
+                            Dhaka 1219, Bangladesh</div>
+                    </div>
+                    <div class="d-flex gap-2 mb-2">
+                            <div><i class="bi bi-envelope text-white"></i></div>
+                            <div class="text-white">xyz.porfolio@gmail.com</div>
+                    </div>
+                    <div class="d-flex gap-2">
+                            <div><i class="bi bi-telephone text-white"></i></div>
+                            <div class="text-white">+88 01999911100</div>
+                    </div>
+                    
+                </div>
+                <!-- item end  -->
+            </div>
+        </div>
+    </section>
+
+    <!-- footer copyright start  -->
+     <section class="bg-secondary text-white">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-5 py-2 text-center">
+                    <small class="mb-0 ">© 2025. Ascend Pharma Limited. All rights reserved.</small>
+                </div>
+                <div class="col-md-1 col-12 border-end" width="1px"></div>
+                <div class="col-12 border-bottom d-md-none d-block"></div>
+                <div class="col-md-5 py-2 text-center">
+                    <small class="mb-0 developer-address-hover">Site by <a href="#" class="text-decoration-none text-white"> webnewsdesign.com</a></small>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- footer copyright End  -->
+<!------------- Footer Section End --------- -->
+
+
+
+
+
+    <!-- Bootstrap bundle js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
+
+    <script src="js/bxslider.js"></script>
 </body>
 
 </html>
