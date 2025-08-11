@@ -135,3 +135,31 @@ h3 {
     display: none !important;
 }
 
+.bg-color-product {
+    background: #2b61ab url(images/home-section.png);
+}
+
+
+/* Overlay initially hidden for product photo */
+.product-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6); /* Transparent black */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    height: 100%;
+    border: 10px solid gray;
+}
+
+/* Hover effect */
+.product-card:hover .product-overlay {
+    opacity: 1;
+}
+.icon-bg{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    
+}
