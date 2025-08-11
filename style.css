@@ -12,44 +12,63 @@
 /* Body font */
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px; /* default font size */
+    font-size: 16px;
+    /* default font size */
     line-height: 1.6;
-    color: #333; /* text color */
+    color: #333;
+    /* text color */
 }
 
 /* Headings font */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     line-height: 1.3;
 }
 
 /* Optional: customize heading sizes */
-h1 { font-size: 2.5rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.75rem; }
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
 
 
 /* navbar css  */
-.bg-color{
+.bg-color {
     background-color: #2b61ab;
 }
-.bg-dropdown{
+
+.bg-dropdown {
     background: #0091d2 !important;
 }
-.hover-for-dropdown>li>a:hover{
+
+.hover-for-dropdown>li>a:hover {
     background-color: #114a7b !important;
 }
-.hover-for-dropdown>li>a{
+
+.hover-for-dropdown>li>a {
     transition: 0.3s ease;
 }
 
 /* Section-1 ==Sldier== CSS  */
-.bg-ticker{
+.bg-ticker {
     background-color: rgba(11, 87, 152, 0.78) !important;
     /* height: 60px; */
 }
-.carousel-indicators{
+
+.carousel-indicators {
     bottom: 40px !important;
 }
 
@@ -58,9 +77,61 @@ h3 { font-size: 1.75rem; }
 .footer-item-hover li a:hover {
     color: gray !important;
 }
-.footer-item-hover li a{
+
+.footer-item-hover li a {
     transition: 0.3s ease;
 }
-.developer-address-hover a:hover{
- color: #0091d2 !important;
+
+.developer-address-hover a:hover {
+    color: #0091d2 !important;
 }
+
+
+/* contact-us page css  */
+.vig-bg-photo {
+    background-image: url(images/1.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.vig-bg-color {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* google map css  */
+.mapouter {
+    position: relative;
+    text-align: right;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+}
+
+.gmap_canvas iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.mapouter a {
+    display: block;
+    font-size: 0.85em;
+    text-align: center;
+    padding: 5px 0;
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.gme-generated-link {
+    display: none !important;
+}
+
