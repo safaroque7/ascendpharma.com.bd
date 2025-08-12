@@ -106,6 +106,7 @@ h3 {
     background-attachment: fixed;
     background-size: cover;
 }
+
 /* google map css  */
 .mapouter {
     position: relative;
@@ -146,7 +147,8 @@ h3 {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.6); /* Transparent black */
+    background: rgba(0, 0, 0, 0.6);
+    /* Transparent black */
     opacity: 0;
     transition: opacity 0.3s ease;
     height: 100%;
@@ -157,11 +159,15 @@ h3 {
 .product-card:hover .product-overlay {
     opacity: 1;
 }
-.icon-bg{
+
+.icon-bg {
     width: 30px;
     height: 30px;
     background-color: white;
-    
+}
+
+.main-logo {
+    width: 76%;
 }
 
 /* Responsive override */
@@ -169,6 +175,8 @@ h3 {
     .vig-bg-photo {
         height: 150px;
     }
+
+    .main-logo {
+        width: 48%;
+    }
 }
-
-
