@@ -170,6 +170,11 @@ h3 {
     width: 76%;
 }
 
+/* about-us page css start  */
+.for-text-justify{
+    text-align: justify; 
+}
+
 /* Responsive override */
 @media (max-width: 768px) {
     .vig-bg-photo {
@@ -179,4 +184,12 @@ h3 {
     .main-logo {
         width: 48%;
     }
+}
+
+/* nav button for mobile  */
+.navbar-toggler:focus {
+    box-shadow:none !important;  
+}
+.navbar-toggler{
+    background-color: white !important;
 }
